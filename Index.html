@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="icon" href="https://tse4.mm.bing.net/th?id=OIP.JamH8t59hFg2lx9QrpRGjgHaHa&pid=Api&P=0&h=180">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+              <!--calculator box--> 
+    <div class="calculater-box">
+        <div class="display-box">
+            <input type="text" placeholder="00" id="Display">
+        </div>vb 
+        <div class="number-row-cantainer">
+            <div class="number-row">
+               <input type="button" value="AC" style="color:darkcyan ;" onclick="clr()" id="Btn">
+               <input type="button" value="Dlt" style="color:darkcyan ;"onclick="Min()"id="Btn">
+               <input type="button" value="%" style="color:darkcyan ;"onclick="pick('%')"id="Btn">
+               <input type="button" value="/" style="color:darkcyan ;"onclick="pick('/')"id="Btn">
+
+            </div>
+            <div class="number-row">
+                <input type="button" value="7"onclick="pick(7)"id="Btn">
+                <input type="button" value="8"onclick="pick(8)"id="Btn">
+                <input type="button" value="9"onclick="pick(9)"id="Btn">
+                <input type="button" value="*" style="color:darkcyan ;"onclick="pick('*')"id="Btn">
+            </div>
+            <div class="number-row">
+                <input type="button" value="4"onclick="pick(4)"id="Btn">
+                <input type="button" value="5"onclick="pick(5)"id="Btn">
+                <input type="button" value="6"onclick="pick(6)"id="Btn">
+                <input type="button" value="-" style="color:darkcyan ;"onclick="pick('-')"id="Btn">
+            </div>
+            <div class="number-row">
+                <input type="button" value="1"onclick="pick(1)"id="Btn">
+                <input type="button" value="2"onclick="pick(2)"id="Btn">
+                <input type="button" value="3"onclick="pick(3)"id="Btn">
+                <input type="button" value="+" style="color:darkcyan ;"onclick="pick('+')"id="Btn">
+            </div>
+            <div class="number-row">
+                <input type="button" value="00"onclick="pick('00')"id="Btn">
+                <input type="button" value="0"onclick="pick(0)"id="Btn">
+                <input type="button" value="." style="color:darkcyanaqua ;"onclick="pick('.')"id="Btn">
+                <input type="button" value="=" style="color:darkgoldenrod ;"onclick="solve()"id="Btn">
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
