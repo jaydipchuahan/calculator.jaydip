@@ -11,5 +11,7 @@ function clr(){
     document.getElementById("Display").value="";
 }
 function Min(){
-    document.getElementById("Display").value --;
+    let display = document.getElementById('display').value;
+    display = display.slice(0, -1);
+    document.getElementById('display').value = display;
 }
